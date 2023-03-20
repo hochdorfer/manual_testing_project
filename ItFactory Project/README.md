@@ -92,8 +92,8 @@ Functional test cases were created in Zephyr Squad. Based on the analysis of the
     <figcaption>Tests</figcaption>
 </figure>
 
-<h4>For the Airport Gap API, the following checklist was generated: 
-csv file to be entered.</h4>
+<h4>For the Airport Gap API, the following checklist was generated</h4>:
+<a href="https://github.com/hochdorfer/manual_testing_project/blob/main/API%20requests.jpg" target="_blank">Airport Gap API Collection</a>
 
 <h4>1.5 Test Implementation</h4>
 <p>The following elements are needed to be ready before the test execution phase begins:
