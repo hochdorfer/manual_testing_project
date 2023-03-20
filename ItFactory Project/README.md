@@ -92,3 +92,22 @@ Functional test cases were created in Zephyr Squad. Based on the analysis of the
     <figcaption>Tests</figcaption>
 </figure>
 
+<h4>For the Airport Gap API, the following checklist was generated: 
+csv file to be entered.</h4>
+
+<h4>1.5 Test Implementation</h4>
+<p>The following elements are needed to be ready before the test execution phase begins:
+
+Testing environment is up and running: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login<br>
+
+Access to the testing environment is given:<br>  
+Username : Any from user name list | Password : none<br>
+Cycle summary was created<br>
+Test cases were added to the cycle summary<br>
+Postman collection with the dependents API methods was created<br>
+Authorization token was created for accessing the API<br>
+    
+
+
+    
+
