@@ -32,9 +32,9 @@ Software developer - Hochdorfer Nora<br>
 QA Engineer - Hochdorfer Nora<br>
 
 <h4>1.1.2 Entry criteria defined</h4>
-<p>-functional specifications are defined<br>
--roles needed for the project are allocated<br>
--initial project risks were detected and mitigated<br>
+<p>- functional specifications are defined<br>
+- roles needed for the project are allocated<br>
+- initial project risks were detected and mitigated<br>
 
 <h4>1.1.3 Exit criteria defined</h4>
 <p>- number of unresolved bugs is insignificant or they have low priority<br>
@@ -49,12 +49,12 @@ Tests not in scope: performance testing, compatibility testing with multiple bro
 
 <h4>1.1.5 Risks detected</h4>
 <p>Project risks: <br>
-Lack of experience of the QA team<br>
-Short deadline of Zephyr Squad trial<br>
-Data vulnerability<br>
-Malware risks<br>
-Poor app security<br>
-Unsecured Wi-Fi and data networks<br>
+- Lack of experience of the QA team<br>
+- Short deadline of Zephyr Squad trial<br>
+- Data vulnerability<br>
+- Malware risks<br>
+- Poor app security<br>
+- Unsecured Wi-Fi and data networks<br>
   
 <h4>Product risks:</h4>
 Validation constraints on the fields might be too easy to the end-user<br>
@@ -75,3 +75,20 @@ Insufficient staff
  <h4>1.3 Test Analysis</h4>
  <p>The testing process will be executed based on the above requirements for the Customer Login and Bank Manager Login modules. The following test conditions were found:</p>
  
+● Check if users have mandatory login requirements<br>
+● Check if users can use drop-down lists<br>
+● Enter invalid data<br>
+● Check if users can user mandatory fields<br>
+● Check if list can be rearranged<br>
+● View all Customers in a list<br>
+● Check if essential buttons are functional<br>
+
+<h4>1.4 Test Design</h4>
+Functional test cases were created in Zephyr Squad. Based on the analysis of the specifications, the test design techniques used for generating test cases are boundary value analysis, equivalence partitioning and use case testing.
+
+<figure>
+    <img src="https://github.com/hochdorfer/manual_testing_project/blob/main/Tests.jpg"
+         alt="Tests">
+    <figcaption>Tests</figcaption>
+</figure>
+
