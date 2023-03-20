@@ -55,6 +55,9 @@ Validation constraints on the fields might be too easy to the end-user<br>
 Insufficient staff
 
 <h4>1.1.6 Evaluating entry criteria</h4>
-The entry criterias defined in the Test Planning phase have been partially achieved and the test process can continue.
+<p>The entry criterias defined in the Test Planning phase have been partially achieved and the test process can continue.</p>
 
-
+<h2>1.2 Test Monitoring and Control</h2>
+<p>Various periodic reports were generated to reflect the current status of the testing process, in case of major problems control measures could be taken. The following status report was generated after 36.36% of the test cases were executed, on 12th of March 2023:<br>
+  
+  
