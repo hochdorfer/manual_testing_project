@@ -50,6 +50,11 @@ Malware risks<br>
 Poor app security<br>
 Unsecured Wi-Fi and data networks<br>
   
-  
+<h4>Product risks:</h4>
+Validation constraints on the fields might be too easy to the end-user<br>
+Insufficient staff
+
+<h4>1.1.6 Evaluating entry criteria</h4>
+The entry criterias defined in the Test Planning phase have been partially achieved and the test process can continue.
 
 
