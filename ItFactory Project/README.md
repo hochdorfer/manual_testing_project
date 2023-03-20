@@ -116,9 +116,9 @@ Testing environment is up and running: https://www.globalsqa.com/angularJs-protr
 <p>Bugs have been created based on the failed tests. The complete bug reports can be found
 <a href="https://github.com/hochdorfer/manual_testing_project/blob/main/Bug%20Report.jpg" target="_blank">HERE</a></p>
     
-<h1>UNDER CONSTRUCTION: all the bugs one by one</h1>
+<font color="red">UNDER CONSTRUCTION: all the bugs one by one</font>
     
-Full regression testing is needed after the bugs are fixed
+Full regression testing is recommended after the this stage of the testing process.
 
 <h2>1.7 Test Completion</h2>
 <P>The traceability matrix was generated and can be found here: 
