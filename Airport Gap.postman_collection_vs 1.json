@@ -1,0 +1,403 @@
+{
+	"info": {
+		"_postman_id": "ef07c092-3ce6-419c-9005-2f33fba98a94",
+		"name": "Airport Gap",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25295771"
+	},
+	"item": [
+		{
+			"name": "All Airports - request",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.environment.get(\"variable_key\");\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/airports",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"airports"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Specific Airport ID Request",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/airports/:id",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"airports",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "KIX"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Airports Distance - same",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/airports/distance?from=KIX&to=KIX",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"airports",
+						"distance"
+					],
+					"query": [
+						{
+							"key": "from",
+							"value": "KIX"
+						},
+						{
+							"key": "to",
+							"value": "KIX"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Airports Distance - Iceland",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/airports/distance?from=HZK&to=IFJ",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"airports",
+						"distance"
+					],
+					"query": [
+						{
+							"key": "from",
+							"value": "HZK"
+						},
+						{
+							"key": "to",
+							"value": "IFJ"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Generate Token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/tokens?email=sz.nora86@gmail.com&password=admin",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"tokens"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "sz.nora86@gmail.com"
+						},
+						{
+							"key": "password",
+							"value": "admin"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Favorite Airports List",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/favorites",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"favorites"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List one Favorite Airport by ID",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/favorites/7852",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"favorites",
+						"7852"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save NEW favorite airport +NOTE",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/favorites?airport_id=GKA&note=The nices staff is at this airport",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"favorites"
+					],
+					"query": [
+						{
+							"key": "airport_id",
+							"value": "GKA"
+						},
+						{
+							"key": "note",
+							"value": "The nices staff is at this airport"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update the note of one of your favorite airports",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/airports/?id=1&note=Some text",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"airports",
+						""
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						},
+						{
+							"key": "note",
+							"value": "Some text"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a Favorite record",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/favorites/:id?id=7966",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"favorites",
+						":id"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "7966"
+						}
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete ALL favorites",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/favorites/clear_all",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"favorites",
+						"clear_all"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL",
+			"value": "https://airportgap.dev-tester.com/api"
+		}
+	]
+}
