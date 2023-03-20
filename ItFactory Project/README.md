@@ -12,7 +12,13 @@ Tools used: JIRA, Zephyr Squad, Postman, MySQL Workbench.
 
 <h2>Functional specifications</h2>
 
-The below Story was created in JIRA and describes the functional specifications of the Customer Login and Bank Manager Login module, for which the final project is performed upon.
+The below Stories were created in JIRA and describe the functional specifications of the Customer Login and Bank Manager Login module, for which the final project is performed upon.
+
+<figure>
+    <img src="https://github.com/hochdorfer/manual_testing_project/blob/main/Story_XBNB%203.jpg"
+         alt="Story_3">
+    <figcaption>Bank Application - User Actions</figcaption>
+</figure>
 
 <h2>1 Testing section</h2>
 <h4>1.1 Test Planning</h4>
