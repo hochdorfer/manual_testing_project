@@ -116,7 +116,7 @@ Testing environment is up and running: https://www.globalsqa.com/angularJs-protr
 <p>Bugs have been created based on the failed tests. The complete bug reports can be found
 <a href="https://github.com/hochdorfer/manual_testing_project/blob/main/Bug%20Report.jpg" target="_blank">HERE</a></p>
     
-<font color="red">UNDER CONSTRUCTION: all the bugs one by one</font>
+<p style="color:red">UNDER CONSTRUCTION: all the bugs one by one</p>
     
 Full regression testing is recommended after the this stage of the testing process.
 
