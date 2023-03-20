@@ -66,4 +66,8 @@ Insufficient staff
 <h2>1.2 Test Monitoring and Control</h2>
 <p>Various periodic reports were generated to reflect the current status of the testing process, in case of major problems control measures could be taken. The following status report was generated after 36.36% of the test cases were executed, on 12th of March 2023:<br>
   
-  
+  <figure>
+    <img src="https://github.com/hochdorfer/manual_testing_project/blob/main/Cycle%20Summary%207%20in%20progress.jpg"
+         alt="Cycle Summary">
+    <figcaption>Cycle Summary</figcaption>
+</figure>
