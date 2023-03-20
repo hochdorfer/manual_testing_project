@@ -126,9 +126,15 @@ Testing environment is up and running: https://www.globalsqa.com/angularJs-protr
 Full regression testing is needed after the bugs are fixed
 
 <h2>1.7 Test Completion</h2>
+<P>The traceability matrix was generated and can be found here: 
 
  <figure>
     <img src="https://github.com/hochdorfer/manual_testing_project/blob/main/Test%20Execution%20Report%20from%20Dashboard_18.03.2023.jpg"
          alt="Test Execution Report">
     <figcaption>Test Execution Report</figcaption>
 </figure>
+
+
+<h2>2 SQL Section</h2>
+
+UNDER CONSTRUCTION
