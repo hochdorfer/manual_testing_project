@@ -106,10 +106,12 @@ Testing environment is up and running: https://www.globalsqa.com/angularJs-protr
 ● Test cases were added to the cycle summary<br>
 ● Postman collection with the dependents API methods was created<br>
 ● Authorization token was created for accessing the API<br>
-
     
-    
-
+<figure>
+    <img src="https://github.com/hochdorfer/manual_testing_project/blob/main/Cycle%20Summary%209_%20ALL%20PASS.jpg"
+         alt="Cycle Summary">
+    <figcaption>Cycle Summary - All Pass</figcaption>
+</figure>
 
     
 
