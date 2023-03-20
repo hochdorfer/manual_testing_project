@@ -127,6 +127,7 @@ Full regression testing is needed after the bugs are fixed
 
 <h2>1.7 Test Completion</h2>
 <P>The traceability matrix was generated and can be found here: 
+    <a href="https://github.com/hochdorfer/manual_testing_project/blob/main/Forward%20Traceability_20_3_2023.xlsxForward_Traceability_20_03_2023" target="_blank">Forward Traceability 20.03.2023</a>
 
  <figure>
     <img src="https://github.com/hochdorfer/manual_testing_project/blob/main/Test%20Execution%20Report%20from%20Dashboard_18.03.2023.jpg"
