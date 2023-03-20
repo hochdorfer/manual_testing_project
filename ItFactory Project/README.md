@@ -42,12 +42,14 @@ Tests in scope: All the features of Customer Login and Bank Manager Login module
 Tests not in scope: performance testing, compatibility testing with multiple browsers and  mobile devices.
 
 <h4>1.1.5 Risks detected</h4>
-Project risks: 
-Lack of experience of the QA team
-Short deadline of Zephyr Squad trial
-Data vulnerability
-Malware risks
-Poor app security
-Unsecured Wi-Fi and data networks
+<p>Project risks: <br>
+Lack of experience of the QA team<br>
+Short deadline of Zephyr Squad trial<br>
+Data vulnerability<br>
+Malware risks<br>
+Poor app security<br>
+Unsecured Wi-Fi and data networks<br>
+  
+  
 
 
