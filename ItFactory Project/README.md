@@ -127,4 +127,8 @@ Full regression testing is needed after the bugs are fixed
 
 <h2>1.7 Test Completion</h2>
 
-
+ <figure>
+    <img src="https://github.com/hochdorfer/manual_testing_project/blob/main/Bug%20Report.jpg"
+         alt="Test Execution Report">
+    <figcaption>Test Execution Report</figcaption>
+</figure>
