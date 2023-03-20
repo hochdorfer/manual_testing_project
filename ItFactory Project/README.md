@@ -71,3 +71,7 @@ Insufficient staff
          alt="Cycle Summary">
     <figcaption>Cycle Summary</figcaption>
 </figure>
+    
+ <h4>1.3 Test Analysis</h4>
+ <p>The testing process will be executed based on the above requirements for the Customer Login and Bank Manager Login modules. The following test conditions were found:</p>
+ 
