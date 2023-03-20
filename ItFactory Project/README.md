@@ -100,12 +100,14 @@ csv file to be entered.</h4>
 
 Testing environment is up and running: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login<br>
 
-Access to the testing environment is given:<br>  
-Username : Any from user name list | Password : none<br>
-Cycle summary was created<br>
-Test cases were added to the cycle summary<br>
-Postman collection with the dependents API methods was created<br>
-Authorization token was created for accessing the API<br>
+● Access to the testing environment is given:<br>  
+● Username : Any from user name list | Password : none<br>
+● Cycle summary was created<br>
+● Test cases were added to the cycle summary<br>
+● Postman collection with the dependents API methods was created<br>
+● Authorization token was created for accessing the API<br>
+
+    
     
 
 
