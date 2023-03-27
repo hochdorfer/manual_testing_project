@@ -2,6 +2,9 @@
 
 The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application.
 
+Documentation of the XYZ Bank App: https://github.com/hochdorfer/manual_testing_project/blob/main/BUSINESS%20REQUIREMENTS_Proiect%20final.pdf
+
+
 Application under test: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
 
 API Documentation: https://airportgap.dev-tester.com/docs
